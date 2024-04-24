@@ -1,0 +1,1 @@
+This repository is a part of "The Odin Project".This repository will share the source code of Recipes Project.
