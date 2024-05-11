@@ -2,33 +2,69 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.heading-main-page {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
   text-decoration: underline;
+  margin-left: 360px;
 }
 
-a {
-  color: #9a4e5d;
+.container ul {
+  display: flex;
+  list-style: none;
+}
+
+.container li {
+  width: 300px;
+  height: auto;
+  background-color: #f5f5f5;
+  border: 1px solid #050505;
+  margin: 16px;
+}
+
+.food-image img {
+  height: 300px;
+  width: 300px;
+}
+
+button {
+  background-color: #145ac2;
+  text-align: center;
+  margin-left: 100px;
+  border: none;
+  margin-bottom: 0;
+  font-weight: bold;
+  padding: 12px;
+}
+
+button a {
+  color: #f5f5f5;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+/* Styles on reciepies */
+.heading-recipes-page {
+  text-align: center;
 }
 
-.main-list {
-  font-weight: 600;
+.article {
+  margin: 100px;
+  background-color: #f5f5f5;
 }
 
-/* Styles on recipes page */
-h2 {
-  font-size: 34px;
+.recipes-image {
+  height: 400px;
+  margin-left: 35%;
 }
 
-li,
-p {
-  line-height: 34px;
-  font-size: 18px;
+.description {
+  margin: 100px;
+}
+
+h2,
+ol,
+li{
+  margin: 24px;
+  padding-bottom: 12px;
 }
